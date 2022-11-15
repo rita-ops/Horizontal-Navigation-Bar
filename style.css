@@ -1,0 +1,31 @@
+/* style od horizontal navigation bar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    overflow: hidden;
+    width: fit-content;
+}
+
+li {
+    float: left; /* byejo 7ad ba3doun*/
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 13px;
+    text-align: center;
+}
+
+li a.choco {
+    background-color: aquamarine;
+}
+
+li a:hover:not(choco) {
+    background-color: black;
+    cursor: progress;
+}
